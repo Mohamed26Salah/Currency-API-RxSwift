@@ -10,6 +10,19 @@ import RxCocoa
 
 class APIClient {
     let disposeBag = DisposeBag()
+    enum EndPoint {
+//        static let accessKey = "?access_key="
+        case rates
+        var stringValue: String {
+            switch self {
+            case.rates:
+                return K.baseUrl + "latest?access_key=" + K.apiKey
+            }
+        }
+        var stringToUrl: URL {
+            return URL(string: stringValue)!
+        }
+    }
     private enum Error: Swift.Error {
         case invalidResponse(URLResponse?)
         case invalidJSON(Swift.Error)

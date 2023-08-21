@@ -8,6 +8,6 @@
 import Foundation
 
 struct K {
-    static let baseUrl = ""
-    static let apiKey = ""
+    static let baseUrl = "http://data.fixer.io/api/"
+    static let apiKey = "186ae7c2f82e18c99010440083889b49"
 }
