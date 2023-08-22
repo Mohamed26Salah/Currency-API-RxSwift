@@ -25,6 +25,8 @@
 		ABAD5A9B2A9274F900A15F8F /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD5A9A2A9274F900A15F8F /* CurrencyViewModel.swift */; };
 		ABAD5A9F2A92812100A15F8F /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD5A9D2A92812100A15F8F /* CurrencyTableViewCell.swift */; };
 		ABAD5AA02A92812100A15F8F /* CurrencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABAD5A9E2A92812100A15F8F /* CurrencyTableViewCell.xib */; };
+		ABDEB7A72A9540AA004A66CE /* iOSDropDown in Frameworks */ = {isa = PBXBuildFile; productRef = ABDEB7A62A9540AA004A66CE /* iOSDropDown */; };
+		ABDEB7A92A95414C004A66CE /* UITest2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDEB7A82A95414C004A66CE /* UITest2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		ABAD5A9A2A9274F900A15F8F /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
 		ABAD5A9D2A92812100A15F8F /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
 		ABAD5A9E2A92812100A15F8F /* CurrencyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyTableViewCell.xib; sourceTree = "<group>"; };
+		ABDEB7A12A951584004A66CE /* OpenSans-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; };
+		ABDEB7A82A95414C004A66CE /* UITest2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITest2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 				ABAD5A992A9274D400A15F8F /* OptionallyDecodable in Frameworks */,
 				ABAD5A8B2A92700900A15F8F /* RxRelay in Frameworks */,
 				ABAD5A892A92700900A15F8F /* RxCocoa in Frameworks */,
+				ABDEB7A72A9540AA004A66CE /* iOSDropDown in Frameworks */,
 				ABAD5A8D2A92700900A15F8F /* RxSwift in Frameworks */,
 				ABAD5A872A92700900A15F8F /* RxBlocking in Frameworks */,
 			);
@@ -87,6 +92,7 @@
 				ABAD5A812A926FD500A15F8F /* Store */,
 				ABAD5A6D2A926FCE00A15F8F /* AppDelegate.swift */,
 				ABAD5A6F2A926FCE00A15F8F /* SceneDelegate.swift */,
+				ABDEB7A22A951598004A66CE /* Resources */,
 				ABAD5A762A926FCF00A15F8F /* Assets.xcassets */,
 				ABAD5A7B2A926FCF00A15F8F /* Info.plist */,
 				AB4DE04F2A93F70500673741 /* Extenstions.swift */,
@@ -125,6 +131,7 @@
 				ABAD5A932A9272CD00A15F8F /* CurrencyViewController.swift */,
 				ABAD5A732A926FCE00A15F8F /* Main.storyboard */,
 				ABAD5A782A926FCF00A15F8F /* LaunchScreen.storyboard */,
+				ABDEB7A82A95414C004A66CE /* UITest2ViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -144,6 +151,14 @@
 				ABAD5A9E2A92812100A15F8F /* CurrencyTableViewCell.xib */,
 			);
 			path = CurrencyCell;
+			sourceTree = "<group>";
+		};
+		ABDEB7A22A951598004A66CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABDEB7A12A951584004A66CE /* OpenSans-VariableFont_wdth,wght.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +183,7 @@
 				ABAD5A8A2A92700900A15F8F /* RxRelay */,
 				ABAD5A8C2A92700900A15F8F /* RxSwift */,
 				ABAD5A982A9274D400A15F8F /* OptionallyDecodable */,
+				ABDEB7A62A9540AA004A66CE /* iOSDropDown */,
 			);
 			productName = "Currency-API-RxSwift";
 			productReference = ABAD5A6A2A926FCE00A15F8F /* Currency-API-RxSwift.app */;
@@ -200,6 +216,10 @@
 			packageReferences = (
 				ABAD5A852A92700900A15F8F /* XCRemoteSwiftPackageReference "RxSwift" */,
 				ABAD5A972A9274D400A15F8F /* XCRemoteSwiftPackageReference "OptionallyDecodable" */,
+				ABDEB7A52A9540AA004A66CE /* XCRemoteSwiftPackageReference "iOSDropDown" */,
+				ABDEB7AA2A954494004A66CE /* XCRemoteSwiftPackageReference "SwiftyMenu" */,
+				ABDEB7AD2A955109004A66CE /* XCRemoteSwiftPackageReference "DropDown" */,
+				ABDEB7AE2A955B21004A66CE /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = ABAD5A6B2A926FCE00A15F8F /* Products */;
 			projectDirPath = "";
@@ -238,6 +258,7 @@
 				ABAD5A702A926FCE00A15F8F /* SceneDelegate.swift in Sources */,
 				AB4DE0502A93F70500673741 /* Extenstions.swift in Sources */,
 				ABAD5A842A926FE600A15F8F /* APIClient.swift in Sources */,
+				ABDEB7A92A95414C004A66CE /* UITest2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +494,38 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		ABDEB7A52A9540AA004A66CE /* XCRemoteSwiftPackageReference "iOSDropDown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jriosdev/iOSDropDown";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+		ABDEB7AA2A954494004A66CE /* XCRemoteSwiftPackageReference "SwiftyMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KarimEbrahemAbdelaziz/SwiftyMenu";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		ABDEB7AD2A955109004A66CE /* XCRemoteSwiftPackageReference "DropDown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AssistoLab/DropDown";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.5;
+			};
+		};
+		ABDEB7AE2A955B21004A66CE /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -500,6 +553,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = ABAD5A972A9274D400A15F8F /* XCRemoteSwiftPackageReference "OptionallyDecodable" */;
 			productName = OptionallyDecodable;
+		};
+		ABDEB7A62A9540AA004A66CE /* iOSDropDown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABDEB7A52A9540AA004A66CE /* XCRemoteSwiftPackageReference "iOSDropDown" */;
+			productName = iOSDropDown;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

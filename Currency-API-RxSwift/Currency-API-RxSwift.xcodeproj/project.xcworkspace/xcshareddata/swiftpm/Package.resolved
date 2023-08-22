@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "iosdropdown",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jriosdev/iOSDropDown",
+      "state" : {
+        "revision" : "945c4f1945ed37a31055e812a5ee11a3d06e88ab",
+        "version" : "0.4.0"
+      }
+    },
+    {
       "identity" : "optionallydecodable",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/idrougge/OptionallyDecodable",
@@ -16,6 +25,24 @@
       "state" : {
         "revision" : "9dcaa4b333db437b0fbfaf453fad29069044a8b4",
         "version" : "6.6.0"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "f222cbdf325885926566172f6f5f06af95473158",
+        "version" : "5.6.0"
+      }
+    },
+    {
+      "identity" : "swiftymenu",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/KarimEbrahemAbdelaziz/SwiftyMenu",
+      "state" : {
+        "revision" : "fe77ef6c6cf93809f5c1bc680c807cb664e571d0",
+        "version" : "1.0.1"
       }
     }
   ],
